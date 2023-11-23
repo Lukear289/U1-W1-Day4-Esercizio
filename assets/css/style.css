@@ -33,12 +33,7 @@ main {
   text-align: center;
 }
 #firma {
-  opacity: 0.5;
-}
-main,
-aside,
-footer {
-  margin: auto;
+  opacity: 0.7;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 
