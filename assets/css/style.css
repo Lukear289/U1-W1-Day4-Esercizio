@@ -14,6 +14,7 @@ header {
   background: linear-gradient(to bottom, #01aacd, #006688);
   text-align: center;
   box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+  padding: 1em;
 }
 header img {
   width: 250px;
@@ -27,6 +28,9 @@ header img {
 /* MAIN */
 main {
   font-family: 'Poppins', sans-serif;
+  background-color: white;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+  padding: 1em;
 }
 .menu {
   color: white;
@@ -36,9 +40,42 @@ main {
   opacity: 0.7;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+code {
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+  background-color: rgb(245, 245, 245);
+  padding: 1px;
+}
 /* TABELLE */
+main article table thead {
+  border-bottom: 2px skyblue solid;
+  width: 100%;
+  text-align: center;
+  background-color: skyblue;
+  color: white;
+}
+table {
+  width: 100%;
+  line-height: 3em;
+  text-align: center;
+  border-bottom: 3px solid skyblue;
+}
+main article table th:nth-child(1) {
+  width: 30%;
+}
+main article table th:nth-child(2) {
+  width: 30%;
+}
+main article table th:nth-child(3) {
+  width: 40%;
+}
+main article table tr:nth-child(even) {
+  background-color: lightgrey;
+}
 
+.tool {
+  font-weight: bold;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
